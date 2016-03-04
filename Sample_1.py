@@ -1,10 +1,9 @@
-import string
-
-def ispangram(s, alphabet=string.ascii_lowercase):  
-    l=set(alphabet)
-    s = s.replace(' ','')
-    s=s.lower()
-    s=set(s)
-    return(l==s)
-        
-    
+def sum67(nums):   
+  while (6 in nums):
+      x=nums.index(6)
+      y=nums.index(7)
+      del nums[x:y+1] 
+  if len(nums)==0:
+      return 0
+  else:    
+      return sum(nums) 

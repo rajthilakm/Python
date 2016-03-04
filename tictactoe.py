@@ -54,6 +54,7 @@ def printBoard(R):
      #print ('A2''|''B2''|''C2')
      print ('{} | {} | {} '.format(str(R['R2']['A2']),str(R['R2']['B2']),str(R['R2']['C2'])))
      print ('------------')
+
     # print ('A3''|''B2''|''C3')
      print ('{} | {} | {}'.format(str(R['R3']['A3']),str(R['R3']['B3']),str(R['R3']['C3'])))
      
